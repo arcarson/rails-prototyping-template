@@ -9,6 +9,9 @@ gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
 
+# Use autoprefixer to handle vendor prefixing
+gem 'autoprefixer-rails'
+
 # Use slim for templating
 gem 'slim-rails'
 
