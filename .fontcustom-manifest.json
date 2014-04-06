@@ -1,0 +1,76 @@
+{
+  "checksum": {
+    "previous": "7ccd82b88069b5fdb918a66ebaff831a21755f7419f582153b2f07897fa9b4ae",
+    "current": "7ccd82b88069b5fdb918a66ebaff831a21755f7419f582153b2f07897fa9b4ae"
+  },
+  "fonts": [
+    "public/fonts/fontcustom_7ccd82b88069b5fdb918a66ebaff831a.ttf",
+    "public/fonts/fontcustom_7ccd82b88069b5fdb918a66ebaff831a.svg",
+    "public/fonts/fontcustom_7ccd82b88069b5fdb918a66ebaff831a.woff",
+    "public/fonts/fontcustom_7ccd82b88069b5fdb918a66ebaff831a.eot"
+  ],
+  "glyphs": {
+    "angle-right": {
+      "codepoint": 61696,
+      "source": "icons/angle-right.svg"
+    },
+    "caret-down": {
+      "codepoint": 61697,
+      "source": "icons/caret-down.svg"
+    },
+    "caret-right": {
+      "codepoint": 61698,
+      "source": "icons/caret-right.svg"
+    },
+    "cross": {
+      "codepoint": 61699,
+      "source": "icons/cross.svg"
+    },
+    "email": {
+      "codepoint": 61700,
+      "source": "icons/email.svg"
+    },
+    "facebook": {
+      "codepoint": 61701,
+      "source": "icons/facebook.svg"
+    },
+    "pinterest": {
+      "codepoint": 61702,
+      "source": "icons/pinterest.svg"
+    },
+    "twitter": {
+      "codepoint": 61703,
+      "source": "icons/twitter.svg"
+    },
+    "youtube": {
+      "codepoint": 61704,
+      "source": "icons/youtube.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": "fontcustom.yml",
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_name": "fontcustom",
+    "force": false,
+    "input": {
+      "templates": "icons",
+      "vectors": "icons"
+    },
+    "no_hash": false,
+    "output": {
+      "css": "app/assets/stylesheets/scaffolding",
+      "fonts": "public/fonts",
+      "preview": "public/fonts"
+    },
+    "preprocessor_path": "/fonts/",
+    "quiet": false,
+    "templates": [
+      "scss"
+    ]
+  },
+  "templates": [
+    "app/assets/stylesheets/scaffolding/_fontcustom.scss"
+  ]
+}

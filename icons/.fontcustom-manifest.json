@@ -1,0 +1,62 @@
+{
+  "checksum": {
+    "previous": "938ad32c83bd766e6c818e7842a8e5382bc680d0a95a84d7763cb62e3b7e53c0",
+    "current": "938ad32c83bd766e6c818e7842a8e5382bc680d0a95a84d7763cb62e3b7e53c0"
+  },
+  "fonts": [
+    "fontcustom/fontcustom_938ad32c83bd766e6c818e7842a8e538.ttf",
+    "fontcustom/fontcustom_938ad32c83bd766e6c818e7842a8e538.svg",
+    "fontcustom/fontcustom_938ad32c83bd766e6c818e7842a8e538.woff",
+    "fontcustom/fontcustom_938ad32c83bd766e6c818e7842a8e538.eot"
+  ],
+  "glyphs": {
+    "arrow-right-bold-round": {
+      "codepoint": 61696,
+      "source": "./arrow-right-bold-round.svg"
+    },
+    "social-facebook": {
+      "codepoint": 61697,
+      "source": "./social-facebook.svg"
+    },
+    "social-pinterest": {
+      "codepoint": 61698,
+      "source": "./social-pinterest.svg"
+    },
+    "social-twitter": {
+      "codepoint": 61699,
+      "source": "./social-twitter.svg"
+    },
+    "social-youtube": {
+      "codepoint": 61700,
+      "source": "./social-youtube.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": false,
+    "css_selector": ".icon-{{glyph}}",
+    "debug": false,
+    "font_name": "fontcustom",
+    "force": false,
+    "input": {
+      "templates": ".",
+      "vectors": "."
+    },
+    "no_hash": false,
+    "output": {
+      "css": "fontcustom",
+      "fonts": "fontcustom",
+      "preview": "fontcustom"
+    },
+    "preprocessor_path": null,
+    "quiet": false,
+    "templates": [
+      "css",
+      "preview"
+    ]
+  },
+  "templates": [
+    "fontcustom/fontcustom.css",
+    "fontcustom/fontcustom-preview.html"
+  ]
+}
