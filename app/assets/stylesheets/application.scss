@@ -1,0 +1,39 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+*/
+
+
+// ==========================================================================
+//  Scaffolding
+//  base files related to project setup
+// ==========================================================================
+
+@import "scaffolding/_normalize";
+@import "scaffolding/_global-variables";
+@import "scaffolding/_mixins";
+@import "scaffolding/_utilities";
+@import "scaffolding/_fontcustom";
+
+
+// ==========================================================================
+//  Modules
+//  ui components - a module can also be a grouping of several smaller modules
+// ==========================================================================
+
+
+// ==========================================================================
+//  Templates
+//  page templates used for laying out ui components - should not contain presentational styles
+// ==========================================================================
+
+@import "templates/_application-template";
+

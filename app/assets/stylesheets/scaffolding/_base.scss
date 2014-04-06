@@ -1,0 +1,23 @@
+.preload * {
+  transition: none !important;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+input,
+button,
+textarea {
+  font-family: $sans-font-fallbacks;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
